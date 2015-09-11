@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7CE7CB1-DF01-4EA5-99DA-AEEEF6B4EC7F}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>ProjetoFinalVS2012</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SFML_STATIC;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFML-2.3.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;opengl32.lib;freetype.lib;jpeg.lib;winmm.lib;gdi32.lib;kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\SFML-2.3.1\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>SFML_STATIC;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFML-2.3.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;opengl32.lib;freetype.lib;jpeg.lib;winmm.lib;gdi32.lib;kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\SFML-2.3.1\lib</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbsListaElementos.cpp" />
+    <ClCompile Include="AbsPersiste.cpp" />
+    <ClCompile Include="AbsPersisteBinario.cpp" />
+    <ClCompile Include="AbsPersisteXML.cpp" />
+    <ClCompile Include="Afirmacao.cpp" />
+    <ClCompile Include="Argumentacao.cpp" />
+    <ClCompile Include="Argumento.cpp" />
+    <ClCompile Include="ArgumentoGeometrico.cpp" />
+    <ClCompile Include="ArgumentoViewElemento.cpp" />
+    <ClCompile Include="Ataque.cpp" />
+    <ClCompile Include="AtaqueViewElemento.cpp" />
+    <ClCompile Include="CalculaAceitabilidadeDung.cpp" />
+    <ClCompile Include="Classificacao.cpp" />
+    <ClCompile Include="Conectivo.cpp" />
+    <ClCompile Include="ConfiguraSistemaSingleton.cpp" />
+    <ClCompile Include="DesenhistaAtaqueSFML.cpp" />
+    <ClCompile Include="Instituicao.cpp" />
+    <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="ListaAfirmacoes.cpp" />
+    <ClCompile Include="ListaArgsDung.cpp" />
+    <ClCompile Include="ListaArgumentacoes.cpp" />
+    <ClCompile Include="ListaArgumentoGeometrico.cpp" />
+    <ClCompile Include="ListaArgumentos.cpp" />
+    <ClCompile Include="ListaAtaqueGeometrico.cpp" />
+    <ClCompile Include="ListaAtaques.cpp" />
+    <ClCompile Include="ListaClassificacoes.cpp" />
+    <ClCompile Include="ListaConectivos.cpp" />
+    <ClCompile Include="ListaInstituicoes.cpp" />
+    <ClCompile Include="ListaModeradores.cpp" />
+    <ClCompile Include="ListaParticipantes.cpp" />
+    <ClCompile Include="ListaPessoas.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Moderador.cpp" />
+    <ClCompile Include="Participante.cpp" />
+    <ClCompile Include="PersisteBinarioClassificacao.cpp" />
+    <ClCompile Include="PersisteBinarioInstituicao.cpp" />
+    <ClCompile Include="PersisteMemoriaArgumentacao.cpp" />
+    <ClCompile Include="PersisteMemoriaClassificacao.cpp" />
+    <ClCompile Include="PersisteMemoriaInstituicao.cpp" />
+    <ClCompile Include="PersisteMemoriaPessoa.cpp" />
+    <ClCompile Include="PersisteXMLConfiguraSistema.cpp" />
+    <ClCompile Include="Pessoa.cpp" />
+    <ClCompile Include="AtaqueGeometrico.cpp" />
+    <ClCompile Include="PersisteBinarioPessoa.cpp" />
+    <ClCompile Include="Prototype.cpp" />
+    <ClCompile Include="Sistema.cpp" />
+    <ClCompile Include="Sobre.cpp" />
+    <ClCompile Include="TelaArgumentacao.cpp" />
+    <ClCompile Include="TelaArgumento.cpp" />
+    <ClCompile Include="TelaClassificacao.cpp" />
+    <ClCompile Include="TelaConectivo.cpp" />
+    <ClCompile Include="TelaConfiguracao.cpp" />
+    <ClCompile Include="TelaInstituicao.cpp" />
+    <ClCompile Include="TelaPessoas.cpp" />
+    <ClCompile Include="TelaPrincipal.cpp" />
+    <ClCompile Include="AbridoraDeTelasSingleton.cpp" />
+    <ClCompile Include="Persistivel.cpp" />
+    <ClCompile Include="ViewElementsFactory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbsListaElementos.h" />
+    <ClInclude Include="AbsPersiste.h" />
+    <ClInclude Include="AbsPersisteBinario.h" />
+    <ClInclude Include="AbsPersisteXML.h" />
+    <ClInclude Include="Afirmacao.h" />
+    <ClInclude Include="Argumentacao.h" />
+    <ClInclude Include="Argumento.h" />
+    <ClInclude Include="ArgumentoGeometrico.h" />
+    <ClInclude Include="ArgumentoViewElemento.h" />
+    <ClInclude Include="Ataque.h" />
+    <ClInclude Include="AtaqueViewElemento.h" />
+    <ClInclude Include="CalculaAceitabilidadeDung.h" />
+    <ClInclude Include="Classificacao.h" />
+    <ClInclude Include="Conectivo.h" />
+    <ClInclude Include="ConfiguraSistemaSingleton.h" />
+    <ClInclude Include="DesenhistaAtaqueSFML.h" />
+    <ClInclude Include="Instituicao.h" />
+    <ClInclude Include="Lista.h" />
+    <ClInclude Include="ListaAfirmacoes.h" />
+    <ClInclude Include="ListaArgsDung.h" />
+    <ClInclude Include="ListaArgumentacoes.h" />
+    <ClInclude Include="ListaArgumentoGeometrico.h" />
+    <ClInclude Include="ListaArgumentos.h" />
+    <ClInclude Include="ListaAtaqueGeometrico.h" />
+    <ClInclude Include="ListaAtaques.h" />
+    <ClInclude Include="ListaClassificacoes.h" />
+    <ClInclude Include="ListaConectivos.h" />
+    <ClInclude Include="ListaInstituicoes.h" />
+    <ClInclude Include="ListaModeradores.h" />
+    <ClInclude Include="ListaParticipantes.h" />
+    <ClInclude Include="ListaPessoas.h" />
+    <ClInclude Include="Moderador.h" />
+    <ClInclude Include="Participante.h" />
+    <ClInclude Include="PersisteBinarioClassificacao.h" />
+    <ClInclude Include="PersisteBinarioInstituicao.h" />
+    <ClInclude Include="PersisteMemoriaArgumentacao.h" />
+    <ClInclude Include="PersisteMemoriaClassificacao.h" />
+    <ClInclude Include="PersisteMemoriaInstituicao.h" />
+    <ClInclude Include="PersisteMemoriaPessoa.h" />
+    <ClInclude Include="PersisteXMLConfiguraSistema.h" />
+    <ClInclude Include="Pessoa.h" />
+    <ClInclude Include="AtaqueGeometrico.h" />
+    <ClInclude Include="PersisteBinarioPessoa.h" />
+    <ClInclude Include="Prototype.h" />
+    <ClInclude Include="Sistema.h" />
+    <ClInclude Include="Sobre.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TelaArgumentacao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaArgumento.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaClassificacao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaConectivo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaConfiguracao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaInstituicao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaPessoas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TelaPrincipal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AbridoraDeTelasSingleton.h" />
+    <ClInclude Include="Persistivel.h" />
+    <ClInclude Include="ViewElementsFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sobre.resx">
+      <DependentUpon>Sobre.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaArgumentacao.resx">
+      <DependentUpon>TelaArgumentacao.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaArgumento.resx">
+      <DependentUpon>TelaArgumento.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaClassificacao.resx">
+      <DependentUpon>TelaClassificacao.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaConectivo.resx">
+      <DependentUpon>TelaConectivo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaConfiguracao.resx">
+      <DependentUpon>TelaConfiguracao.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInstituicao.resx">
+      <DependentUpon>TelaInstituicao.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPessoas.resx">
+      <DependentUpon>TelaPessoas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPrincipal.resx">
+      <DependentUpon>TelaPrincipal.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

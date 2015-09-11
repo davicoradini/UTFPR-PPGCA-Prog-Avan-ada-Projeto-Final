@@ -1,0 +1,135 @@
+﻿Build started 9/11/2015 5:48:07 PM.
+Project "C:\Workspaces\Visual Studio\ProjetoFinalVS2012\ProjetoFinalVS2012\ProjetoFinalVS2012.vcxproj" on node 2 (Rebuild target(s)).
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.3.1\include" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D SFML_STATIC /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AbsListaElementos.cpp AbsPersiste.cpp AbsPersisteBinario.cpp AbsPersisteXML.cpp Afirmacao.cpp Argumentacao.cpp Argumento.cpp ArgumentoGeometrico.cpp ArgumentoViewElemento.cpp Ataque.cpp AtaqueViewElemento.cpp CalculaAceitabilidadeDung.cpp Classificacao.cpp Conectivo.cpp ConfiguraSistemaSingleton.cpp DesenhistaAtaqueSFML.cpp Instituicao.cpp Lista.cpp ListaAfirmacoes.cpp ListaArgsDung.cpp ListaArgumentacoes.cpp ListaArgumentoGeometrico.cpp ListaArgumentos.cpp ListaAtaqueGeometrico.cpp ListaAtaques.cpp ListaClassificacoes.cpp ListaConectivos.cpp ListaInstituicoes.cpp ListaModeradores.cpp ListaParticipantes.cpp ListaPessoas.cpp main.cpp Moderador.cpp Participante.cpp PersisteBinarioClassificacao.cpp PersisteBinarioInstituicao.cpp PersisteMemoriaArgumentacao.cpp PersisteMemoriaClassificacao.cpp PersisteMemoriaInstituicao.cpp PersisteMemoriaPessoa.cpp PersisteXMLConfiguraSistema.cpp Pessoa.cpp AtaqueGeometrico.cpp PersisteBinarioPessoa.cpp Prototype.cpp Sistema.cpp Sobre.cpp TelaArgumentacao.cpp TelaArgumento.cpp TelaClassificacao.cpp TelaConectivo.cpp TelaConfiguracao.cpp TelaInstituicao.cpp TelaPessoas.cpp TelaPrincipal.cpp AbridoraDeTelasSingleton.cpp Persistivel.cpp ViewElementsFactory.cpp
+  AbsListaElementos.cpp
+  AbsPersiste.cpp
+  AbsPersisteBinario.cpp
+  AbsPersisteXML.cpp
+  Afirmacao.cpp
+  Argumentacao.cpp
+  Argumento.cpp
+  ArgumentoGeometrico.cpp
+  ArgumentoViewElemento.cpp
+  Ataque.cpp
+  AtaqueViewElemento.cpp
+  CalculaAceitabilidadeDung.cpp
+  Classificacao.cpp
+  Conectivo.cpp
+  ConfiguraSistemaSingleton.cpp
+  DesenhistaAtaqueSFML.cpp
+  Instituicao.cpp
+  Lista.cpp
+  ListaAfirmacoes.cpp
+  ListaArgsDung.cpp
+  Generating Code...
+  Compiling...
+  ListaArgumentacoes.cpp
+  ListaArgumentoGeometrico.cpp
+  ListaArgumentos.cpp
+  ListaAtaqueGeometrico.cpp
+  ListaAtaques.cpp
+  ListaClassificacoes.cpp
+  ListaConectivos.cpp
+  ListaInstituicoes.cpp
+  ListaModeradores.cpp
+  ListaParticipantes.cpp
+  ListaPessoas.cpp
+  main.cpp
+  Moderador.cpp
+  Participante.cpp
+  PersisteBinarioClassificacao.cpp
+  PersisteBinarioInstituicao.cpp
+  PersisteMemoriaArgumentacao.cpp
+  PersisteMemoriaClassificacao.cpp
+  PersisteMemoriaInstituicao.cpp
+  PersisteMemoriaPessoa.cpp
+  Generating Code...
+  Compiling...
+  PersisteXMLConfiguraSistema.cpp
+  Pessoa.cpp
+  AtaqueGeometrico.cpp
+  PersisteBinarioPessoa.cpp
+  Prototype.cpp
+  Sistema.cpp
+  Sobre.cpp
+  TelaArgumentacao.cpp
+  TelaArgumento.cpp
+  TelaClassificacao.cpp
+  TelaConectivo.cpp
+  TelaConfiguracao.cpp
+  TelaInstituicao.cpp
+  TelaPessoas.cpp
+  TelaPrincipal.cpp
+  AbridoraDeTelasSingleton.cpp
+  Persistivel.cpp
+  ViewElementsFactory.cpp
+  Generating Code...
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.3.1\include" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D SFML_STATIC /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /analyze- /errorReport:prompt "C:\Users\user\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Workspaces\Visual Studio\ProjetoFinalVS2012\Release\ProjetoFinalVS2012.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\SFML-2.3.1\lib" "sfml-graphics-s.lib" "sfml-window-s.lib" "sfml-system-s.lib" opengl32.lib freetype.lib jpeg.lib winmm.lib gdi32.lib kernel32.lib user32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Release\ProjetoFinalVS2012.Sobre.resources /ASSEMBLYRESOURCE:Release\ProjetoFinalVS2012.TelaArgumentacao.resources /ASSEMBLYRESOURCE:Release\ProjetoFinalVS2012.TelaArgumento.resources /ASSEMBLYRESOURCE:Release\ProjetoFinalVS2012.TelaClassificacao.resources /ASSEMBLYRESOURCE:Release\ProjetoFinalVS2012.TelaConectivo.resources /ASSEMBLYRESOURCE:Release\ProjetoFinalVS2012.TelaConfiguracao.resources /ASSEMBLYRESOURCE:Release\ProjetoFinalVS2012.TelaInstituicao.resources /ASSEMBLYRESOURCE:Release\ProjetoFinalVS2012.TelaPessoas.resources /ASSEMBLYRESOURCE:Release\ProjetoFinalVS2012.TelaPrincipal.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Workspaces\Visual Studio\ProjetoFinalVS2012\Release\ProjetoFinalVS2012.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\AbsListaElementos.obj
+  Release\AbsPersiste.obj
+  Release\AbsPersisteBinario.obj
+  Release\AbsPersisteXML.obj
+  Release\Afirmacao.obj
+  Release\Argumentacao.obj
+  Release\Argumento.obj
+  Release\ArgumentoGeometrico.obj
+  Release\ArgumentoViewElemento.obj
+  Release\Ataque.obj
+  Release\AtaqueViewElemento.obj
+  Release\CalculaAceitabilidadeDung.obj
+  Release\Classificacao.obj
+  Release\Conectivo.obj
+  Release\ConfiguraSistemaSingleton.obj
+  Release\DesenhistaAtaqueSFML.obj
+  Release\Instituicao.obj
+  Release\Lista.obj
+  Release\ListaAfirmacoes.obj
+  Release\ListaArgsDung.obj
+  Release\ListaArgumentacoes.obj
+  Release\ListaArgumentoGeometrico.obj
+  Release\ListaArgumentos.obj
+  Release\ListaAtaqueGeometrico.obj
+  Release\ListaAtaques.obj
+  Release\ListaClassificacoes.obj
+  Release\ListaConectivos.obj
+  Release\ListaInstituicoes.obj
+  Release\ListaModeradores.obj
+  Release\ListaParticipantes.obj
+  Release\ListaPessoas.obj
+  Release\main.obj
+  Release\Moderador.obj
+  Release\Participante.obj
+  Release\PersisteBinarioClassificacao.obj
+  Release\PersisteBinarioInstituicao.obj
+  Release\PersisteMemoriaArgumentacao.obj
+  Release\PersisteMemoriaClassificacao.obj
+  Release\PersisteMemoriaInstituicao.obj
+  Release\PersisteMemoriaPessoa.obj
+  Release\PersisteXMLConfiguraSistema.obj
+  Release\Pessoa.obj
+  Release\AtaqueGeometrico.obj
+  Release\PersisteBinarioPessoa.obj
+  Release\Prototype.obj
+  Release\Sistema.obj
+  Release\Sobre.obj
+  Release\TelaArgumentacao.obj
+  Release\TelaArgumento.obj
+  Release\TelaClassificacao.obj
+  Release\TelaConectivo.obj
+  Release\TelaConfiguracao.obj
+  Release\TelaInstituicao.obj
+  Release\TelaPessoas.obj
+  Release\TelaPrincipal.obj
+  Release\AbridoraDeTelasSingleton.obj
+  Release\Persistivel.obj
+  Release\ViewElementsFactory.obj
+  "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+  ProjetoFinalVS2012.vcxproj -> C:\Workspaces\Visual Studio\ProjetoFinalVS2012\Release\ProjetoFinalVS2012.exe
+Done Building Project "C:\Workspaces\Visual Studio\ProjetoFinalVS2012\ProjetoFinalVS2012\ProjetoFinalVS2012.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:40.16

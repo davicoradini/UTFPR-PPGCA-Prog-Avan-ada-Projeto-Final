@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{7384cd1b-0c93-4650-adfb-e5c937f3d6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{de6cc6e8-153a-48cb-af61-21e2a3ebff20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{b52a8726-aad6-4446-b31c-448ccbc41edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{2a70f3dc-0e92-463b-ae1e-842b31df4567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controller\Listas">
+      <UniqueIdentifier>{a7c882aa-7f9e-4e24-983b-6a8324579d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Listas">
+      <UniqueIdentifier>{d6a4f331-efcb-4daf-8b15-c8d96ef38171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ViewsVisualDotNet">
+      <UniqueIdentifier>{4b9299cf-eb4e-4012-b5fd-a1e7afeb906c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ViewsVisualDotNet\Listas">
+      <UniqueIdentifier>{329fbfe5-5b0e-4c36-a864-3e5fd32f2da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ViewsVisualDotNet\ElementosGraficos">
+      <UniqueIdentifier>{60bda021-12c0-49b7-9d8e-6c963d16ef61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ViewsVisualDotNet\SFMLLibrary">
+      <UniqueIdentifier>{c98b4af2-0a53-430f-ae15-7db90199f1da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ViewsVisualDotNet">
+      <UniqueIdentifier>{7e23be99-9525-4c4d-aa72-fdddb3080337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ViewsVisualDotNet\Listas">
+      <UniqueIdentifier>{0a97e0dd-3b4e-44ae-bef4-e4f1290516cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ViewsVisualDotNet\SFMLLibrary">
+      <UniqueIdentifier>{4fc29e69-dac7-4582-a41c-5bf9788b6c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ViewsVisualDotNet\ElementosGraficos">
+      <UniqueIdentifier>{0a951006-8f31-4e7f-b148-cd778fb60d26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TelaPrincipal.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaPessoas.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="Instituicao.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Pessoa.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sistema.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaPessoas.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="Lista.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsListaElementos.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaInstituicoes.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaInstituicao.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="Classificacao.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaClassificacoes.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaClassificacao.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaConectivos.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="Conectivo.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaConectivo.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaArgumentacao.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="Argumentacao.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaArgumentacoes.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="Afirmacao.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Argumento.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Moderador.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Participante.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaAfirmacoes.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaArgumentos.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaAtaques.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaModeradores.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaParticipantes.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="Ataque.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AtaqueGeometrico.cpp">
+      <Filter>Source Files\ViewsVisualDotNet\SFMLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaAtaqueGeometrico.cpp">
+      <Filter>Source Files\ViewsVisualDotNet\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgumentoGeometrico.cpp">
+      <Filter>Source Files\ViewsVisualDotNet\SFMLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaArgumentoGeometrico.cpp">
+      <Filter>Source Files\ViewsVisualDotNet\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="AtaqueViewElemento.cpp">
+      <Filter>Source Files\ViewsVisualDotNet\ElementosGraficos</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaArgumento.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgumentoViewElemento.cpp">
+      <Filter>Source Files\ViewsVisualDotNet\ElementosGraficos</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculaAceitabilidadeDung.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaArgsDung.cpp">
+      <Filter>Source Files\Controller\Listas</Filter>
+    </ClCompile>
+    <ClCompile Include="Persistivel.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsPersisteBinario.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsPersiste.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PersisteBinarioPessoa.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PersisteMemoriaPessoa.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PersisteBinarioInstituicao.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PersisteMemoriaInstituicao.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PersisteBinarioClassificacao.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PersisteMemoriaClassificacao.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="DesenhistaAtaqueSFML.cpp">
+      <Filter>Source Files\ViewsVisualDotNet\SFMLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaConfiguracao.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewElementsFactory.cpp">
+      <Filter>Source Files\ViewsVisualDotNet\ElementosGraficos</Filter>
+    </ClCompile>
+    <ClCompile Include="AbridoraDeTelasSingleton.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsPersisteXML.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfiguraSistemaSingleton.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PersisteXMLConfiguraSistema.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PersisteMemoriaArgumentacao.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Sobre.cpp">
+      <Filter>Source Files\ViewsVisualDotNet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TelaPrincipal.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaPessoas.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Instituicao.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Pessoa.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Sistema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaPessoas.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsListaElementos.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaInstituicoes.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaInstituicao.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Classificacao.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaClassificacoes.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaClassificacao.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaConectivos.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Conectivo.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaConectivo.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaArgumentacao.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Argumentacao.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaArgumentacoes.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Afirmacao.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Argumento.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Moderador.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Participante.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaAfirmacoes.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaArgumentos.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaAtaques.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaModeradores.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaParticipantes.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Ataque.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AtaqueGeometrico.h">
+      <Filter>Header Files\ViewsVisualDotNet\SFMLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaAtaqueGeometrico.h">
+      <Filter>Header Files\ViewsVisualDotNet\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentoGeometrico.h">
+      <Filter>Header Files\ViewsVisualDotNet\SFMLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaArgumentoGeometrico.h">
+      <Filter>Header Files\ViewsVisualDotNet\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaArgumento.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentoViewElemento.h">
+      <Filter>Header Files\ViewsVisualDotNet\ElementosGraficos</Filter>
+    </ClInclude>
+    <ClInclude Include="AtaqueViewElemento.h">
+      <Filter>Header Files\ViewsVisualDotNet\ElementosGraficos</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculaAceitabilidadeDung.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaArgsDung.h">
+      <Filter>Header Files\Controller\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistivel.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsPersisteBinario.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsPersiste.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PersisteBinarioPessoa.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PersisteMemoriaPessoa.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PersisteBinarioInstituicao.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PersisteMemoriaInstituicao.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PersisteMemoriaClassificacao.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PersisteBinarioClassificacao.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DesenhistaAtaqueSFML.h">
+      <Filter>Header Files\ViewsVisualDotNet\SFMLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaConfiguracao.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewElementsFactory.h">
+      <Filter>Header Files\ViewsVisualDotNet\ElementosGraficos</Filter>
+    </ClInclude>
+    <ClInclude Include="AbridoraDeTelasSingleton.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsPersisteXML.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfiguraSistemaSingleton.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PersisteXMLConfiguraSistema.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PersisteMemoriaArgumentacao.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Sobre.h">
+      <Filter>Header Files\ViewsVisualDotNet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TelaPessoas.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInstituicao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaClassificacao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaPrincipal.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaConectivo.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaArgumentacao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaArgumento.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaConfiguracao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
