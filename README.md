@@ -1,0 +1,7 @@
+# UTFPR-PPGCA-Prog-Avan-ada-Projeto-Final
+O presente trabalho foi desenvolvido como projeto final da disciplina de Programação Avançada e tem por objetivo empregar todas as estruturas, técnicas e padrões da linguagem de programação C++ estudados em sala de aula. O sistema aqui desenvolvido vem a contribuir com a linha de pesquisa de Mestrado do autor, no que se refere a elaboração de estruturas de argumentação abstrata. 
+
+A ferramenta foi desenvolvida utilizando-se o sistema Microsoft Visual Studio Express Edition 2012 (VS), uma IDE para desenvolvimento de softwares que possibilita criação de formulários para interação com usuário, compilador de código integrado e ferramentas para depurar o software durante o desenvolvimento. Um dos principais recursos utilizados foi acriação de formulários ou “telas” do sistema para exibição das informações e interação com usuário. Os formulários desenvolvidos utilizando VS utilizam as classes da estrutura .NET, bem como outros recursos da tecnologia .NET em uma mesma sintaxe. Desta maneira é possível integrar classes desenvolvidas em C++ aos formulários e criar aplicações desacopladas sob o ponto de vista MVC .
+Para empregar a maioria dos recursos estudados durante a disciplina foram desenvolvidas listas encadeadas, manipulação de arquivos de forma binária e fluxo (arquivo XML), e empregados os conceitos de coesão e desacoplamento em todo o processo de desenvolvimento.
+
+
